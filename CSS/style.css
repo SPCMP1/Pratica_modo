@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'myFont';
+    src: url(/FONT/DS-DIGIT.TTF);
+}
+
+*{
+    font-family: 'myFont';
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(https://i.ytimg.com/vi/BLPKmxI-6Is/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.calculadora{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.337);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#display{
+    margin-bottom: 25px;
+    padding: 5px;
+    width: 98%;
+    border-radius: 15px;
+    height: 70px;
+    background-color: gray;
+    display: flex;
+}
+button{
+    margin: 3px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px; 
+}
+button:hover{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQScm9si8Zylc1P4him40ttsumTgkPUUzUFeA&s'); 
+    background-size: cover;  background-size: cover;
+} 
+

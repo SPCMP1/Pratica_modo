@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<header>
+
+</header>
+<body>
+    
+<h1 id="boasvindas"> Calculadora</h1>
+<section class="calculadora">
+   <input id="display" readonly>
+    <table>
+        <tr>    
+            <td><button onclick="botaoNum(7)">7</button></td>
+            <td><button onclick="botaoNum(8)">8</button></td>
+            <td><button onclick="botaoNum(9)">9</button></td>
+            <td><button onclick="limpar()">Limpar</button></td>
+        </tr>
+        <tr>        
+            <td><button onclick="botaoNum(4)">4</button></td>
+            <td><button onclick="botaoNum(5)">5</button></td>
+            <td><button onclick="botaoNum(6)">6</button></td>
+            <td><button onclick="botaoNum('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="botaoNum(3)">3</button></td>        
+            <td><button onclick="botaoNum(2)">2</button></td>        
+            <td><button onclick="botaoNum(1)">1</button></td>        
+            <td><button onclick="calcular()">=</button></td>        
+        </tr>
+        <tr>
+            <td><button onclick="botaoNum('+')">+</button></td>        
+            <td><button onclick="botaoNum(0)">0</button></td>        
+            <td><button onclick="botaoNum('/')">/</button></td>        
+            <td><button onclick="botaoNum('*')">*</button></td>        
+        </tr>
+    </table>
+</section>
+<script src="/JS/script.js"></script>
+</body>
+</html>
